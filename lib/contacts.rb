@@ -19,5 +19,7 @@ def remove_strawberry(contacts)
     data.each do |attribute, value|
       if attributte == favorite_ice_cream_flavors && favorite_ice_cream_flavors.include?("strawberry")
         favorite_ice_cream_flavors.delete("strawberry")
-
+      end
+    end
+  end
 end
